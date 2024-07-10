@@ -1,5 +1,6 @@
-from .carte import Carte
-from .zombie import Zombie
+from post_apocalypse.carte import Carte
+from post_apocalypse.ressource import Ressource
+from post_apocalypse.zombie import Zombie
 
 class Survivant:
     def __init__(self, x, y, orientation, sante=100):

@@ -1,5 +1,5 @@
-from .ressource.py import Ressource
-from .zombie.py import Zombie
+from post_apocalypse.ressource import Ressource
+from post_apocalypse.zombie import Zombie
 
 class Carte:
     def __init__(self, taille):
